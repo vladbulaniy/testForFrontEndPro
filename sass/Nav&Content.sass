@@ -1,0 +1,38 @@
+#nav
+  background-color:#CFE2F3
+  margin-right:-2px !important
+  min-height: 300px  
+
+#row
+  background-color:#CFE2F3   
+
+.nav 
+  margin-left: -15px
+  width:1000 !important
+
+ 
+#Content
+  background-color:#D9D2E9
+  min-height: 502px
+  
+
+.nav>li>a
+  width:105% !important
+  font-size: 150%
+  color: black
+  border-bottom: 1px solid black
+  margin-bottom: -3px
+
+%item-base 
+  background-color:#D9D2E9 !important
+  border-top: 1px solid black
+  
+  
+.nav>li.active>a
+  @extend %item-base
+
+.nav>li>a:focus
+  @extend %item-base
+
+.nav>li>a:hover
+  @extend %item-base
